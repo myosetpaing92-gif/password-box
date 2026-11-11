@@ -514,6 +514,8 @@ Never include secret values in errors or diagnostic output.
 
 This is the proposed sequence; each step has a concrete completion condition.
 
+For implementation, follow [PHASES.md](PHASES.md), which expands these broad steps into 14 smaller phases with learning notes and an explicit user review before advancing.
+
 | Step | Work | Completion condition |
 | --- | --- | --- |
 | 1. Finalize the specification | Agree on commands, limits, file format, security boundaries, and platform scope | One consistent specification guides implementation |
